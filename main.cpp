@@ -192,7 +192,7 @@ int main() {
         user_input();
         game_update();
         game_render(player_name);
-        usleep(75000); // sleep for 100ms
+        usleep(75000); // sleep for 75ms 
     }
 
     disable_raw_mode();
